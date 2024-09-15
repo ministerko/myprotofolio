@@ -15,7 +15,8 @@ import reportWebVitals from './reportWebVitals'
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
-    <section className="px-10 py-20 bg-slate-200">
+    <section className='  bg-gradient-to-l from-black to-gray-300 '>
+    <section className="px-10 py-20 bg-white/40 backdrop-blur-xl ">
       <section>
         <App />
       </section>
@@ -34,9 +35,11 @@ root.render(
       <section>
         <Startup />
       </section>
-    </section>
-    <section className='bg-black px-10 '>
+      <section className='bg-white/30 px-10 rounded-xl '>
       <ContactMe />
+    </section>
+    </section>
+    
     </section>
   </React.StrictMode>,
 )

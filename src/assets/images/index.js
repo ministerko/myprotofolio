@@ -15,6 +15,9 @@ import bapp from './bapp.png'
 import exp from './exp.png'
 import call from './call.png'
 import email from './email.png'
+import python from './python.png'
+import js from './js.png'
+import rust from './rust.png'
 export {
   kelvin,
   kapp,
@@ -32,5 +35,8 @@ export {
   bapp,
   exp,
   call,
-  email
+  email,
+  python,
+  js,
+  rust,
 }
