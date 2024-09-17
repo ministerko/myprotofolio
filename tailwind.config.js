@@ -10,13 +10,16 @@ module.exports = {
         roboto:['Roboto','sans-serif'],
         
       },
+      backgroundImage:{
+        'main':"url('../src/assets/images/back.png')",
+      },
       colors: {
         'primary': "#ECEEFF",
         "coral-red": "#FF6452",
         "slate-gray": "#6D6D6D",
         "pale-blue": "#F5F6FF",
         "white-400": "rgba(255, 255, 255, 0.80)",
-        "wood": "#b47c10",
+        "wood": "rgba(255, 255, 255, 0.6)",
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
