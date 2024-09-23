@@ -8,7 +8,14 @@ import elisix from './Ellipse 6.svg'
 import groupone from './Group 1.svg'
 import hand from './hand.png'
 import ko from './ko 1.png'
-
+import rust from './rust.svg'
+import python from './python.svg'
+import js from './js.svg'
+import tauri from './Tauri.svg'
+import Ts from './TypeScript.svg'
+import rea from './react.svg'
+import django from './Django.svg'
+import fast from './FastAPI.svg'
 export{
   bfinder,
   call,
@@ -19,5 +26,13 @@ export{
   elisix,
   groupone,
   hand,
-  ko
+  ko,
+  rust,
+  python,
+  js,
+  tauri,
+  Ts,
+  rea,
+  django,
+  fast,
 }
