@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function fetchPost(id) {
   try {
-    const username = 'admin';
-    const password = 'Sivaismygirliloveher100%';
+    const username = 'username';
+    const password = 'password';
 
     // Create a base64 encoded string for the Authorization header
     const base64Credentials = btoa(`${username}:${password}`);
