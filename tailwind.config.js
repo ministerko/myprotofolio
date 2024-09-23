@@ -24,8 +24,8 @@ module.exports = {
     fontSize: {
        "nav":"16px",
        "headone":"64px",
-       "headtwo":"64px",
-       "paragraphone":"32px",
+       "headtwo":"40px",
+       "paragraphone":"20px",
        "paragraphtwo":"26px",
 
 

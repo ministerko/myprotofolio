@@ -10,7 +10,7 @@ const HeroSec = () => {
         DEVELOPER
       </h1>
       <div
-        className="w-[427px] h-[589px] bg-darkblue bg-blend-luminosity"
+        className="w-[427px] h-[589px]  bg-darkblue bg-blend-luminosity "
         style={{
           backgroundImage: `url(${ko})`,
           backgroundSize: 'cover',
