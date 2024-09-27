@@ -6,17 +6,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function fetchPost(id) {
   try {
-    const username = 'admin';
-    const password = 'Sivaismygirliloveher100%';
 
-    // Create a base64 encoded string for the Authorization header
-    const base64Credentials = btoa(`${username}:${password}`);
     
     const response = await fetch(`https://blog-e0kh.onrender.com/blog-posts/${id}`, {
       method: 'GET',
       headers: {
         'Accept': 'application/json',
-        'Authorization': `Basic ${base64Credentials}`,
+        
       }
     });
     
