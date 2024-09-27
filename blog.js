@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 async function fetchBlogPosts() {
   try {
 
-    const response = await fetch('https://blog-e0kh.onrender.com/blog-posts/?skip=1&limit=10', {
+    const response = await fetch('https://blog-e0kh.onrender.com/blog-posts/?limit=10', {
       method: 'GET',
       headers: {
         'Accept': 'application/json',
